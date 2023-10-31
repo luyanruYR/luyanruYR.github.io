@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8" />
+  <title>Github &#43; HUGO </title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+  <meta name="author" content="luyanruYR">
+  
+  <meta name="generator" content="Hugo 0.119.0">
+
+  <!-- Bootstrap -->
+  
+  <link rel="stylesheet" href="https://luyanruYR.github.io/css/bootstrap.min.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://luyanruYR.github.io/font-awesome/css/font-awesome.min.css" />
+  <!-- Main Stylesheets -->
+  
+  <link href="https://luyanruYR.github.io/scss/style.min.css" rel="stylesheet" />
+
+  
+
+  
+  <link rel="shortcut icon" href="https://luyanruYR.github.io/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="https://luyanruYR.github.io/images/favicon.ico" type="image/x-icon" />
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JPTZL5H2KH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JPTZL5H2KH');
+</script>
+
+</head>
+<body><nav class="navbar navbar-expand-lg site-navigation">
+  <div class="container">
+    <a class="navbar-brand" href="https://luyanruYR.github.io/">
+      <img src="https://luyanruYR.github.io/images/logo.png" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#sitenavbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav">
+         
+         
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://luyanruYR.github.io/"
+              >Home</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://luyanruYR.github.io/about"
+              >About</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://luyanruYR.github.io/portfolio"
+              >Projects</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://luyanruYR.github.io/gallery"
+              >Gallery</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-sm btn-primary btn-sm-rounded"
+              href="https://luyanruYR.github.io/blog"
+            >
+              <span class="btn-area">
+                <span data-text="Blog">
+                  Blog
+                </span>
+              </span>
+            </a>
+          </li>
+           
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+
+<section class="site-blog details">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="site-blog-details">
+          <p><span>October 29, 2023</span> by <span>luyanruYR</span></p>
+          <h2 class="blog-title">Github &#43; HUGO </h2>
+          <img class="feature-image" src="https://luyanruYR.github.io/images/2023-10-29-github-plus-hugo.png" alt="blog-feature-image">
+          <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#想節省租用個人網站主機費用">想節省租用個人網站主機費用?</a></li>
+                <li><a href="#github--hugo-建立個人網站">Github + HUGO 建立個人網站</a>
+                  <ul>
+                    <li><a href="#申請github帳號創建repository">申請github帳號創建repository</a></li>
+                    <li><a href="#挑選並套用hugo主題">挑選並套用HUGO主題</a></li>
+                    <li><a href="#安裝vs-code更改hugo主題設定">安裝VS code更改HUGO主題設定</a></li>
+                    <li><a href="#將hugo產生的程式碼上傳至github">將hugo產生的程式碼上傳至Github</a></li>
+                    <li><a href="#read-more位置設置">Read more位置設置</a></li>
+                    <li><a href="#文章搬家">文章搬家</a></li>
+                  </ul>
+                </li>
+                <li><a href="#網站搬家一周後心得">網站搬家一周後心得</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+          <h4 id="想節省租用個人網站主機費用">想節省租用個人網站主機費用?</h4>
+<p>沒想到有一天匯率升貶真的會有感影響生活，一直很希望可以經營自己網站，便買了域名還租用了cloudways主機並試著以wordpress架站，雖然wordpress免費，但需要有主機，想著財富自由後以後要靠經營網站生活，於是選擇付費租用主機，但用了大概半年後有兩大缺點，一是我真的不太會用wordpress導致套用主題後無法大幅度更動版面配置，二是cloudways主機在我申請的當下大概換算台幣一個月700多塊，最近因為匯率，換算台幣竟然一個月要台幣900多，有時又提不起勁更新文章，真的是好浪費啊！</p>
+<p>感覺所有瀏覽器和app都在窺視我，怎麼我一覺得租用主機浪費，它就推播我廣告，我都還沒搜尋免費架站耶，難道它還會讀心術？！</p>
+<p>總之，看到廣告跳出GitHub + HUGO免費架站線上課程，愛買課程的我當然二話不說就把卡刷下去，帶著滿腔熱血要來好好學一下，一心一意要讓每月可以省下近千元。</p>
+<p>深入搜尋關鍵字發現網路上的文章共同提到“靜態網頁”這個詞，當時我連什麼是靜態網頁都不知道，跟著課程加上網路教學，沒想到我可以走到這裡。</p>
+<p>推薦我上的這門課程，老師講得很清楚喔：Github 免費架站術！輕鬆打造個人品牌</p>
+<p>下面就來筆記一下我看著課程還是卡關的地方</p>
+<h4 id="github--hugo-建立個人網站">Github + HUGO 建立個人網站</h4>
+<p>簡單來說是套用HUGO主題，修改程式碼到滿意的樣子後，以HUGO產生程式碼，再用Github Desktop 建立一個commit發布到Github Page 上</p>
+<p>說起來簡單但步驟就是一直來回修改，本機預覽，不滿意再改，再預覽，改到效果滿意後，產生程式碼，再上傳，再到網站看效果是否滿意，不滿意就再修，再傳。</p>
+<p>其中我在上傳至Github後，發現頁面版型設定全部跑掉，圖片完全消失，似乎所有的html和css設定完全不見，只剩文字，詳情就詳下方說明吧</p>
+<h5 id="申請github帳號創建repository">申請github帳號創建repository</h5>
+<p>這個步驟就照著github 網站註冊流程註冊一個新帳號，每個github 帳號都有一個github page可以使用，預設網址就會是https://yourgithubid.github.io，用來放個人頁面的repository 必須以yourgithubid.github.io。</p>
+<p>(yourgithubid是指你自己申請的github帳號)</p>
+<p>這個步驟想當順利，唯一有點後悔的是，因為常用帳號已經被註冊，導致我加了後面幾碼，但我不知道哪根筋不對勁，竟然加了大寫在後面，目前為止，大小寫問題對網頁建立沒有造成影響，但還是建議全小寫比較好。</p>
+<h5 id="挑選並套用hugo主題">挑選並套用HUGO主題</h5>
+<p>先下載電腦相應的hugo程式解壓縮備用，然後挑選喜歡的主題下載套用。</p>
+<p>要憑空從無到有架出一個可以看的網站不容易，是連code和html都不懂的初學者也沒關係，只要到HUGO上的Themes從中挑出喜歡的主題，或是離你心中理想的頁面分布比較相近的主題，下載程式碼後再修改成你想要的網站設定後上傳就可以。</p>
+<p>將下載下來的主題解壓縮，找到example site資料夾複製到桌面，並在資料夾中新增一個資料夾，命名為themes，然後把下載下來解壓縮後的資料夾整個移到或複製一份到剛剛新增的themes資料夾中。</p>
+<p>接著把這個步驟剛開始下載解壓縮備用的hugo程式複製一份到example site資料夾，開啟命令提示字元，鍵入hugo server運行網頁，把產生的網站貼到瀏覽器上就可以在本機電腦預覽網頁效果了。</p>
+<h5 id="安裝vs-code更改hugo主題設定">安裝VS code更改HUGO主題設定</h5>
+<p>接下來安裝一個可以編輯code的vs code開啟example site資料夾，從主頁面config.toml到各個頁面(比如有的主題有portpolio,blog,contact&hellip;)去修改你想要網站呈現的字樣，更換你想顯示的圖片後存檔，在到瀏覽器預覽修改效果，邊改邊存檔。</p>
+<h5 id="將hugo產生的程式碼上傳至github">將hugo產生的程式碼上傳至Github</h5>
+<p>好了，我要來說以Github + HUGO 架站的過程中最令我崩潰的事，也就是文章開頭提到慘案，事情是這樣的，在我將修改好基本首頁設定，將hugo產生的程式碼上傳至Github後，發現頁面版型設定全部跑掉，圖片完全消失，似乎所有的html和css設定完全不見，只剩文字，what ?!!!!</p>
+<p>我當然立刻請問了Google 老師，檢查了幾個可能的錯誤，包括圖片路徑設定是否正確(雖然排除了這個問題，但我後來發現自己打路徑真的有夠容易打錯，尤其是在rename資料夾名稱後，常常因為沒更新路徑，讓圖片消失)，github 帳號和設定的baseURL是否正確，確定是githubid.github.io也沒錯，一一嘗試搜尋到的解方都宣告失敗。</p>
+<p>不行，真的不行。</p>
+<p>後來想到會不會是github 或 hugo對大小寫敏感，我的github 帳號中同時有大小寫的關係，為了測試，我又重新申請了一個github 帳號，全部小寫，然後把上述流程又給重操了一遍，滿心期待我是不是要解開了，結果再度宣告失敗。</p>
+<p>不行，怎樣都不行。</p>
+<p>再次求助Google 老師，發現大家的解方都落在root和URL必須一致居多，我只好再度回頭把repository name 和baseURL又再看一遍，剛剛有提到圖片路徑用打的很容易打錯吧，我心想核對了一遍又一遍都沒錯的網址難道有肉眼看不見，但電腦認為的不一致嗎？</p>
+<p>我保持這最後希望，把版型跑掉、看起來比純文字更不堪的Github Page網址複製，貼到config.toml的baseURL中，產生程式碼，再上傳一次試試，結果你知道怎麼著，Github Desktop 偵測我改動的地方是http&quot;s&quot;://，s，就是這個s，讓我的所有設定都回來了啊啊啊啊啊！！！！</p>
+<p>各位，別像我一樣犯了個愚蠢的失誤。</p>
+<h5 id="read-more位置設置">Read more位置設置</h5>
+<p>設定好首頁、個人介紹頁面後，終於來到Blog文章搬家的時刻，本來以為就是一篇篇複製貼上，雖然有點麻煩但應該沒什麼難度，但這個想法在我貼完兩篇文章後就終結了。</p>
+<p>原本套用的版型會顯示一張圖片，加上文章的的前幾句，但不知道為什麼，我貼上我的文章後他就是整篇文字都顯示，超出了文章區塊的設定。</p>
+<p>看了一下程式碼，明明有設定顯示前70個字就接&hellip;read more但就是起不了作用，後來嘗試了兩種方法解決這個問題，第一種比較笨，也比較沒效率，就在文章想顯示read more 的地方插入html語法</p>
+<p>就可以了，好處是你想顯示多少字，愛怎麼切都隨你，但&hellip;每篇文章都得手動貼上語法。</p>
+<p>另一種就是直接修改程式碼，讓blog首頁呈現一句文章介紹就好，在每篇文章新增一段description :  ，然後指定首頁呈現敘述的內容就好。</p>
+<h5 id="文章搬家">文章搬家</h5>
+<p>經歷了上面的波折，總算可以到真的只剩文章搬家的工作了，雖然文章內容搬家實在是有點無腦複製貼上，但也算簡單，一篇篇把文章新增.md檔到blog資料夾下就大功告成了，不知道有沒有批次搬運這種程式，感覺這種重複性高的工作，應該可以讓程式去完成。</p>
+<p>不過初學者只能土法煉鋼，一篇一篇複製貼上，但好處是再搬運的過程，可以再看一下文章，也能再調整一下內容或之前在wordpress 主題不知道怎麼更改的版面配置。</p>
+<h4 id="網站搬家一周後心得">網站搬家一周後心得</h4>
+<p>要用Github+HUGO 的方式寫blog好像就沒辦法用手機隨時隨地發文(？)感覺必須要用筆電才能上傳整個site的資料夾，還說可以直接上傳文章的.md檔就好？再試個一陣子看看，付費有後台可以編輯就是比較友善，但可以達成省下千元的目標也是值得了。</p>
+<p>本次網站搬家作業到這個階段暫告一個段落，</p>
+<p>筆記部分後續還想補「綁定GitHub Pages」 和「 Namecheap 域名 DNS 設定」、「設定Disqus」，「設定Google Analytics 4 分析網站流量」及「上傳Site map 被搜尋功能」</p>
+<p>網站內容部分，還想把文章目錄的部份調整美化一下，再把Gallery頁面內容新增上去</p>
+<p>不過在職生期中考將至，我得先去抱下佛腳&hellip;只能先擱著了。</p>
+<p><a href="#top">Back to Top</a></p>
+
+        </article>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "luyanru" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="site-cta" style='background-image: url("https://luyanruYR.github.io/images/backgrounds/cta-background.jpg");'>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="site-cta-title">用積極的行動回應真心渴望</h1>
+          <ul class="site-cta-buttons">
+            <li>
+              <a href="https://luyanruYR.github.io/blog" class="btn btn-secondary">
+                <span class="btn-area">
+                  <span data-text="已經走了這麼遠">
+                    已經走了這麼遠
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://luyanruYR.github.io/portfolio" class="btn btn-primary">
+                <span class="btn-area">
+                  <span data-text="有期待才能努力活在當下">
+                    有期待才能努力活在當下
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+        </main><footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-footer-logo"><a href="https://luyanruYR.github.io/"><img src="https://luyanruYR.github.io/images/logo-footer-one.png" alt="logo-footer"></a></div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Contact Info</h5>
+          <p class="site-footer-widget-description">
+	    
+              Taipei, Taiwan
+	      <br>
+	    
+	    
+	    
+              <a href="mailto:queenalu2010@gmail.com">queenalu2010@gmail.com</a>
+	    
+          </p>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Sitemap</h5>
+          <ul class="site-footer-widget-links">
+            
+            <li><a href="https://luyanruYR.github.io/about">About Me</a></li>
+            
+            <li><a href="https://luyanruYR.github.io/portfolio">Projects</a></li>
+            
+            <li><a href="https://luyanruYR.github.io/blog">Blog</a></li>
+            
+            <li><a href="https://luyanruYR.github.io/gallery">Gallery</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Social Media</h5>
+          <ul class="site-footer-widget-links">
+            
+              <li><a href="https://github.com/luyanruYR">Github</a></li>
+            
+              <li><a href="https://www.instagram.com/luyanru/">Instagram</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title"></h5>
+          <p class="site-footer-widget-description">
+            
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-2 col-12">
+        <a href="#top" class="site-footer-widget-top">
+          <img src="https://luyanruYR.github.io/images/to-top.svg" alt="back-to-top">
+          <p>
+	    回到上方
+          </p>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="site-footer-copyright">
+          <p>© Copyright 2023 - All Rights Reserved by <a href="https://luyanruyr.github.io/" target="_blank">luyanruYR</a> </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+
+<script src="https://luyanruYR.github.io/js/vendor.min.js"></script>
+
+<script src="https://luyanruYR.github.io/js/script.min.js"></script>
+</body>
+</html>

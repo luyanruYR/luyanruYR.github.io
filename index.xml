@@ -6,23 +6,48 @@
     <description>Recent content on little 1 step | 一小步生活手帖</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 25 Oct 2023 13:32:54 +0800</lastBuildDate><atom:link href="https://luyanruYR.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Oct 2023 13:32:54 +0800</lastBuildDate><atom:link href="https://luyanruYR.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>俊昊呀，有你在我們真的很幸福♡</title>
-      <link>https://luyanruYR.github.io/blog/2023-10-25-junho-the-moment/</link>
-      <pubDate>Wed, 25 Oct 2023 13:32:54 +0800</pubDate>
+      <title>Github &#43; HUGO </title>
+      <link>https://luyanruYR.github.io/blog/2023-10-29-github-plus-hugo/</link>
+      <pubDate>Sun, 29 Oct 2023 13:32:54 +0800</pubDate>
       
-      <guid>https://luyanruYR.github.io/blog/2023-10-25-junho-the-moment/</guid>
-      <description>一下課就匆忙奔向捷運站，趕赴與俊昊的約會。
-第一次到北流，音樂節的活動讓整個通往表演廳的路上人潮洶湧，在文化廳等待過馬路，斑馬線的另一端已經擠滿了各位李太太。早早排隊入場，在舞台光束的照射下，和身旁的漸漸填滿的位置一起等待俊昊登場。
-北流的宣導影片結束，燈光一暗，尖叫聲四起。
-舞台門一開，俊昊來了。
-雖然是Fanmeeting，誠意滿滿的俊昊還是帶來了7、8首歌舞演出，特別練習的電影《月老》主題曲，還有CAN I韓文版的舞台初公開，隨CUE隨唱的手機歌單，隨CUE隨跳的女團舞，要不要這麼寵粉。
-《衣袖紅鑲邊》讓我開始陷入李演員，當時回頭看俊昊的戲劇作品，才發現早就在《只是相愛的關係》看過俊昊了啊，劇中角色康斗的男友力太強，但是人設太悲了結，沒敢再回味，導致我連結局是什麼都要忘了，直到搜尋才發現，我有把它看完。
-《自白》和《金科長》就不用說了，精彩的故事和有目共睹的演技，就算沒有love line是可愛又迷人的反派，仍舊圈粉無數。
-但真正讓我入坑的絕對是舞台直拍，sexy Cutie非 Lee fox莫屬！各種撩人的小眼神，跳舞的俊昊太有魅力了啊♡各個舞台直拍，看了各種剪輯，粉絲們實在太會了，好有才華，團體舞台，各人舞台，一遍一遍的看，一次一次的陷入Lee fox
-在《衣袖紅鑲邊》和《My House》的逆行視頻火紅後，迎來了俊昊的季節，在這之前我也遺憾的沒有發現這寶藏，感謝俊昊越活越帥氣，讓我們得以發現這顆閃亮的星，我會認真生活，為你應援，繼續走花路吧！
-Back to Top</description>
+      <guid>https://luyanruYR.github.io/blog/2023-10-29-github-plus-hugo/</guid>
+      <description>&lt;h4 id=&#34;想節省租用個人網站主機費用&#34;&gt;想節省租用個人網站主機費用?&lt;/h4&gt;
+&lt;p&gt;沒想到有一天匯率升貶真的會有感影響生活，一直很希望可以經營自己網站，便買了域名還租用了cloudways主機並試著以wordpress架站，雖然wordpress免費，但需要有主機，想著財富自由後以後要靠經營網站生活，於是選擇付費租用主機，但用了大概半年後有兩大缺點，一是我真的不太會用wordpress導致套用主題後無法大幅度更動版面配置，二是cloudways主機在我申請的當下大概換算台幣一個月700多塊，最近因為匯率，換算台幣竟然一個月要台幣900多，有時又提不起勁更新文章，真的是好浪費啊！&lt;/p&gt;
+&lt;p&gt;感覺所有瀏覽器和app都在窺視我，怎麼我一覺得租用主機浪費，它就推播我廣告，我都還沒搜尋免費架站耶，難道它還會讀心術？！&lt;/p&gt;
+&lt;p&gt;總之，看到廣告跳出GitHub + HUGO免費架站線上課程，愛買課程的我當然二話不說就把卡刷下去，帶著滿腔熱血要來好好學一下，一心一意要讓每月可以省下近千元。&lt;/p&gt;
+&lt;p&gt;深入搜尋關鍵字發現網路上的文章共同提到“靜態網頁”這個詞，當時我連什麼是靜態網頁都不知道，跟著課程加上網路教學，沒想到我可以走到這裡。&lt;/p&gt;
+&lt;p&gt;推薦我上的這門課程，老師講得很清楚喔：Github 免費架站術！輕鬆打造個人品牌&lt;/p&gt;
+&lt;p&gt;下面就來筆記一下我看著課程還是卡關的地方&lt;/p&gt;
+&lt;h4 id=&#34;github--hugo-建立個人網站&#34;&gt;Github + HUGO 建立個人網站&lt;/h4&gt;
+&lt;p&gt;簡單來說是套用HUGO主題，修改程式碼到滿意的樣子後，以HUGO產生程式碼，再用Github Desktop 建立一個commit發布到Github Page 上&lt;/p&gt;
+&lt;p&gt;說起來簡單但步驟就是一直來回修改，本機預覽，不滿意再改，再預覽，改到效果滿意後，產生程式碼，再上傳，再到網站看效果是否滿意，不滿意就再修，再傳。&lt;/p&gt;
+&lt;p&gt;其中我在上傳至Github後，發現頁面版型設定全部跑掉，圖片完全消失，似乎所有的html和css設定完全不見，只剩文字，詳情就詳下方說明吧&lt;/p&gt;
+&lt;h5 id=&#34;申請github帳號創建repository&#34;&gt;申請github帳號創建repository&lt;/h5&gt;
+&lt;p&gt;這個步驟就照著github 網站註冊流程註冊一個新帳號，每個github 帳號都有一個github page可以使用，預設網址就會是https://yourgithubid.github.io，用來放個人頁面的repository 必須以yourgithubid.github.io。&lt;/p&gt;
+&lt;p&gt;(yourgithubid是指你自己申請的github帳號)&lt;/p&gt;
+&lt;p&gt;這個步驟想當順利，唯一有點後悔的是，因為常用帳號已經被註冊，導致我加了後面幾碼，但我不知道哪根筋不對勁，竟然加了大寫在後面，目前為止，大小寫問題對網頁建立沒有造成影響，但還是建議全小寫比較好。&lt;/p&gt;
+&lt;h5 id=&#34;挑選並套用hugo主題&#34;&gt;挑選並套用HUGO主題&lt;/h5&gt;
+&lt;p&gt;先下載電腦相應的hugo程式解壓縮備用，然後挑選喜歡的主題下載套用。&lt;/p&gt;
+&lt;p&gt;要憑空從無到有架出一個可以看的網站不容易，是連code和html都不懂的初學者也沒關係，只要到HUGO上的Themes從中挑出喜歡的主題，或是離你心中理想的頁面分布比較相近的主題，下載程式碼後再修改成你想要的網站設定後上傳就可以。&lt;/p&gt;
+&lt;p&gt;將下載下來的主題解壓縮，找到example site資料夾複製到桌面，並在資料夾中新增一個資料夾，命名為themes，然後把下載下來解壓縮後的資料夾整個移到或複製一份到剛剛新增的themes資料夾中。&lt;/p&gt;
+&lt;p&gt;接著把這個步驟剛開始下載解壓縮備用的hugo程式複製一份到example site資料夾，開啟命令提示字元，鍵入hugo server運行網頁，把產生的網站貼到瀏覽器上就可以在本機電腦預覽網頁效果了。&lt;/p&gt;
+&lt;h5 id=&#34;安裝vs-code更改hugo主題設定&#34;&gt;安裝VS code更改HUGO主題設定&lt;/h5&gt;
+&lt;p&gt;接下來安裝一個可以編輯code的vs code開啟example site資料夾，從主頁面config.toml到各個頁面(比如有的主題有portpolio,blog,contact&amp;hellip;)去修改你想要網站呈現的字樣，更換你想顯示的圖片後存檔，在到瀏覽器預覽修改效果，邊改邊存檔。&lt;/p&gt;
+&lt;h5 id=&#34;將hugo產生的程式碼上傳至github&#34;&gt;將hugo產生的程式碼上傳至Github&lt;/h5&gt;
+&lt;p&gt;好了，我要來說以Github + HUGO 架站的過程中最令我崩潰的事，也就是文章開頭提到慘案，事情是這樣的，在我將修改好基本首頁設定，將hugo產生的程式碼上傳至Github後，發現頁面版型設定全部跑掉，圖片完全消失，似乎所有的html和css設定完全不見，只剩文字，what ?!!!!&lt;/p&gt;
+&lt;p&gt;我當然立刻請問了Google 老師，檢查了幾個可能的錯誤，包括圖片路徑設定是否正確(雖然排除了這個問題，但我後來發現自己打路徑真的有夠容易打錯，尤其是在rename資料夾名稱後，常常因為沒更新路徑，讓圖片消失)，github 帳號和設定的baseURL是否正確，確定是githubid.github.io也沒錯，一一嘗試搜尋到的解方都宣告失敗。&lt;/p&gt;
+&lt;p&gt;不行，真的不行。&lt;/p&gt;
+&lt;p&gt;後來想到會不會是github 或 hugo對大小寫敏感，我的github 帳號中同時有大小寫的關係，為了測試，我又重新申請了一個github 帳號，全部小寫，然後把上述流程又給重操了一遍，滿心期待我是不是要解開了，結果再度宣告失敗。&lt;/p&gt;
+&lt;p&gt;不行，怎樣都不行。&lt;/p&gt;
+&lt;p&gt;再次求助Google 老師，發現大家的解方都落在root和URL必須一致居多，我只好再度回頭把repository name 和baseURL又再看一遍，剛剛有提到圖片路徑用打的很容易打錯吧，我心想核對了一遍又一遍都沒錯的網址難道有肉眼看不見，但電腦認為的不一致嗎？&lt;/p&gt;
+&lt;p&gt;我保持這最後希望，把版型跑掉、看起來比純文字更不堪的Github Page網址複製，貼到config.toml的baseURL中，產生程式碼，再上傳一次試試，結果你知道怎麼著，Github Desktop 偵測我改動的地方是http&amp;quot;s&amp;quot;://，s，就是這個s，讓我的所有設定都回來了啊啊啊啊啊！！！！&lt;/p&gt;
+&lt;p&gt;各位，別像我一樣犯了個愚蠢的失誤。&lt;/p&gt;
+&lt;h5 id=&#34;read-more位置設置&#34;&gt;Read more位置設置&lt;/h5&gt;
+&lt;p&gt;設定好首頁、個人介紹頁面後，終於來到Blog文章搬家的時刻，本來以為就是一篇篇複製貼上，雖然有點麻煩但應該沒什麼難度，但這個想法在我貼完兩篇文章後就終結了。&lt;/p&gt;
+&lt;p&gt;原本套用的版型會顯示一張圖片，加上文章的的前幾句，但不知道為什麼，我貼上我的文章後他就是整篇文字都顯示，超出了文章區塊的設定。&lt;/p&gt;
+&lt;p&gt;看了一下程式碼，明明有設定顯示前70個字就接&amp;hellip;read more但就是起不了作用，後來嘗試了兩種方法解決這個問題，第一種比較笨，也比較沒效率，就在文章想顯示read more 的地方插入html語法&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,6 +58,24 @@ Back to Top</description>
       <guid>https://luyanruYR.github.io/portfolio/artist/</guid>
       <description>成為任何形式的創作者
 學習畫畫技能、藝術知識 玩手工藝</description>
+    </item>
+    
+    <item>
+      <title>俊昊呀，有你在我們真的很幸福♡</title>
+      <link>https://luyanruYR.github.io/blog/2023-10-15-junho-the-moment/</link>
+      <pubDate>Sun, 15 Oct 2023 13:32:54 +0800</pubDate>
+      
+      <guid>https://luyanruYR.github.io/blog/2023-10-15-junho-the-moment/</guid>
+      <description>一下課就匆忙奔向捷運站，趕赴與俊昊的約會。
+第一次到北流，音樂節的活動讓整個通往表演廳的路上人潮洶湧，在文化廳等待過馬路，斑馬線的另一端已經擠滿了各位李太太。早早排隊入場，在舞台光束的照射下，和身旁的漸漸填滿的位置一起等待俊昊登場。
+北流的宣導影片結束，燈光一暗，尖叫聲四起。
+舞台門一開，俊昊來了。
+雖然是Fanmeeting，誠意滿滿的俊昊還是帶來了7、8首歌舞演出，特別練習的電影《月老》主題曲，還有CAN I韓文版的舞台初公開，隨CUE隨唱的手機歌單，隨CUE隨跳的女團舞，要不要這麼寵粉。
+《衣袖紅鑲邊》讓我開始陷入李演員，當時回頭看俊昊的戲劇作品，才發現早就在《只是相愛的關係》看過俊昊了啊，劇中角色康斗的男友力太強，但是人設太悲了結，沒敢再回味，導致我連結局是什麼都要忘了，直到搜尋才發現，我有把它看完。
+《自白》和《金科長》就不用說了，精彩的故事和有目共睹的演技，就算沒有love line是可愛又迷人的反派，仍舊圈粉無數。
+但真正讓我入坑的絕對是舞台直拍，sexy Cutie非 Lee fox莫屬！各種撩人的小眼神，跳舞的俊昊太有魅力了啊♡各個舞台直拍，看了各種剪輯，粉絲們實在太會了，好有才華，團體舞台，各人舞台，一遍一遍的看，一次一次的陷入Lee fox
+在《衣袖紅鑲邊》和《My House》的逆行視頻火紅後，迎來了俊昊的季節，在這之前我也遺憾的沒有發現這寶藏，感謝俊昊越活越帥氣，讓我們得以發現這顆閃亮的星，我會認真生活，為你應援，繼續走花路吧！
+Back to Top</description>
     </item>
     
     <item>
@@ -397,6 +440,15 @@ Back to Top</description>
 學生時期認識的朋友，可能因為畢業後開始工作或繼續升學，逐漸沒了交集，繼續聯繫的可能因為出國留學、工作領域或是走入家庭而漸行漸遠。
 能排除萬難，講話還有人願意聽的，那真的要珍惜。
 關於&amp;hellip;伴侶 育兒。有了兒子，沒了老公？</description>
+    </item>
+    
+    <item>
+      <title>理想的一天</title>
+      <link>https://luyanruYR.github.io/gallery/ideal-day/</link>
+      <pubDate>Wed, 24 May 2023 15:44:46 +0800</pubDate>
+      
+      <guid>https://luyanruYR.github.io/gallery/ideal-day/</guid>
+      <description></description>
     </item>
     
     <item>
